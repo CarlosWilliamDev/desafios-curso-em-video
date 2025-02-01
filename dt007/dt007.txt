@@ -1,0 +1,15 @@
+Nesse desafio eu utilizei o <source> para fazer uma interação de imagem, de grande para o pequeno, de acordo com o tamanho da pagina...
+
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F4A1;</p>
+
+    <picture> <!--A tag <picture> em HTML é usada para fornecer versões alternativas de uma imagem para diferentes condições de exibição. Isso é especialmente útil para designs responsivos, onde você pode querer exibir diferentes imagens com base no tamanho da tela do dispositivo ou na resolução. Aqui está um exemplo de como usá-la:-->
+        <source media="(max-width : 830px)"
+        srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width : 1240px)"
+        srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="Imagem de uma mulher olhando paisagem">
+    </picture>
+
+</body>

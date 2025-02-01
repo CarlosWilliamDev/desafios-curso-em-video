@@ -1,0 +1,36 @@
+Nesse Desafio eu criei uma pagina de navegação conforme pedido...
+Foi utilizado o editor gimp para melhorar a resolução da imagem e tamanho.
+também fiz um lista ordenada utilizando tag <ul> 
+					    <li></li>
+					  </ul>
+e a tag <img> para chamar a imagem, e dentro da tag img utilizei tag <a>
+tag <a href=""> para linkar uma mensagem ao site...
+e dentro das aspas utilizei o target="_black" para abrir uma nova aba de pesquisa sem o cliente precisar sair da pagina principal.
+
+<body>
+    <h1>Minhas redes socias</h1>
+    <h2>Quem sou eu ?</h2>
+    <img src="imagem/avatar.png" alt="">
+    <p>Meu nome é <strong>Carlos William</strong> sou aluno de Tecnologia desde dezembro de 2024,<br> estou muito feliz e confiante nessa nova etapa da minha vida ! </p>
+    <h2>Como falar comigo ?</h2>
+
+    <ul>
+        <li><img src="icons/icone-youtube.png" alt=""> <a href="http://youtube.com" target="_blank" rel="external">/youtube</a> - Se increva no canal no Youtube
+        </li>
+
+        <li><img src="icons/icone-instagram.png" alt=""> <a href="http://https://instagram.com/ " target="_blank" rel="external">/instagram</a> - Me siga no Intagram
+        </li>
+
+        <li><img src="icons/icone-linkedin.png" alt=""> <a href="http://linkedin.com" target="_blank" rel="external">/linkedin</a> - Me adicione lá no linkedin
+        </li>
+
+        <li><img src="icons/icone-twitter.png" alt=""> <a href="http://https://x.com/?lang=pt&mx=2" target="_blank" rel="external">/twitter</a> - Me segue lá no twitter
+        </li>
+
+        <li><img src="icons/icone-github.png" alt=""> <a href="http://https://github.com/" target="_blank" rel="external">/github</a> - Acesse meu repositório público
+        </li>
+        
+        <li><img src="icons/icone-facebook.png" alt=""> <a href="http://facebook.com" target="_blank" rel="external">/fabebook</a> - Me siga no facebook 
+        </li>
+    </ul>
+</body>

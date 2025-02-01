@@ -1,0 +1,30 @@
+Nesse desafio eu fiz uma navegação entre as páginas..
+
+pg principal
+<body>
+    <h1>Desafio da Navegação</h1>
+    <p>Esta é a página principal, o índice do seu site. É a página cinza. A partir dela você pode acessar as outras áreas príncipais através dos links a seguir :</p>
+
+    <ul>
+        <li><a href="area-verde.html">Acessar a área verde</a></li>
+        <li><a href="area-amarela.html">Acessar a área amarela</a></li>
+    </ul>
+</body>
+
+pg verde 
+<body>
+    <h1>Página Verde</h1>
+    <p>Você agora ésta na área verde. Voçê acessou clicando no primeiro link da página principal.</p>
+    <ul>
+        <li><a href="index.html">Voltar para a página cinza</a></li>
+    </ul>
+</body>
+
+pg amarela
+<body>
+    <h1>Página Amarela</h1>
+    <p>Você agora ésta na área Amarela. Voçê acessou clicando no segundo link da página principal.</p>
+    <ul>
+        <li><a href="index.html">Voltar para a página cinza</a></li>
+    </ul>
+</body>

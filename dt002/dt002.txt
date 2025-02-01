@@ -1,0 +1,14 @@
+Nesse Desafio eu importei uma imagem no corpo da pagina com tag <img>...
+E um icon no inicio da pagina link. favicon...
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <title>Desafio 02</title>
+</head>
+<body>
+    <h1>Desafio das Imagens</h1>
+
+    <p>Desafio da imagem, a baixo eu coloquei uma imagem para completar o desafio 002 do Curso em Vídeo. <br>
+    E a cima o favicon, coloquei uma imagem .ico concluindo o desafio.</p>
+    <img src="github-m.png" alt="">

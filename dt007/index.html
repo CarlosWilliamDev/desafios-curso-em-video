@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favi.ico.ico" type="image/x-icon">
+    <title>Desafio 007</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F4A1;</p>
+
+    <picture> <!--A tag <picture> em HTML é usada para fornecer versões alternativas de uma imagem para diferentes condições de exibição. Isso é especialmente útil para designs responsivos, onde você pode querer exibir diferentes imagens com base no tamanho da tela do dispositivo ou na resolução. Aqui está um exemplo de como usá-la:-->
+        <source media="(max-width : 830px)"
+        srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width : 1240px)"
+        srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="Imagem de uma mulher olhando paisagem">
+    </picture>
+
+</body>
+</html>
