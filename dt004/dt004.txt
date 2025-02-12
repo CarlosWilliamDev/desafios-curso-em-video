@@ -1,7 +1,7 @@
 Nesse Desafio eu puxei os emojis do site "https://emojipedia.org/"
 e puxei no meu index.html utilizando (&#x + o cod do emoj )
 
-E fiz uma lista ordenada utilizando a tag <ul> 
+E fiz uma lista não ordenada utilizando a tag <ul> 
 					    <li></li>
 					  </ul>
 

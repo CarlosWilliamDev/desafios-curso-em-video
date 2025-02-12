@@ -1,4 +1,4 @@
-Nesse Desafio eu fiz uma lista ordenada <ul> 
+Nesse Desafio eu fiz uma lista não ordenada <ul> 
 					    <li></li>
 					  </ul>
 e adicionei 7 topicos, utilizei a tag <abbr> para abreviar oque

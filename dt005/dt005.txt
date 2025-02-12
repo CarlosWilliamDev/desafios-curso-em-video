@@ -1,6 +1,6 @@
 Nesse Desafio eu criei uma pagina de navegação conforme pedido...
 Foi utilizado o editor gimp para melhorar a resolução da imagem e tamanho.
-também fiz um lista ordenada utilizando tag <ul> 
+também fiz um lista não ordenada utilizando tag <ul> 
 					    <li></li>
 					  </ul>
 e a tag <img> para chamar a imagem, e dentro da tag img utilizei tag <a>
