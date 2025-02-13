@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: 'Font';
-    src: url('Mindsight.ttf') format('opentype');
+    src: url('Mindsightt.ttff') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,7 +34,7 @@ h1 {
 .container {
     width: 500px;
     background-color: rgb(240, 248, 255);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.299);
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.299);
     display: block;
     padding: 20px;
     border-radius: 20px;
@@ -45,7 +45,7 @@ h1 {
 }
 
 .gif1 {
-    background-image: url(avatar1.gif);
+    background-image: url(avatar01.gif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 370px;
@@ -58,7 +58,7 @@ h1 {
 }
 
 .gif2 {
-    background-image: url(avatar2.gif);
+    background-image: url(avatar02.gif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 270px;
