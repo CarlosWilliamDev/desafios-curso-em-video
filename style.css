@@ -7,7 +7,7 @@
     margin: 0;
 }
 body { 
-    height: 97vh;
+    height: 100vh;
     background-image: linear-gradient(to bottom, rgb(135, 206, 250), rgb(176, 224, 230), rgb(240, 248, 255));
     background-size: cover;
 
@@ -27,12 +27,20 @@ h1 {
     font-size: 3em;
     color: #007BFF;
     text-align: center; 
-    margin: 30px;
-    
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding: 15px 0;
 }
 
+
 .container {
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     background-color: rgb(240, 248, 255);
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.299);
     display: block;
@@ -45,42 +53,34 @@ h1 {
 }
 
 .gif1 {
-    background-image: url(avatar01.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 370px;
-    height: 500px;
-    background-color: rgba(240, 248, 255, 0);
+    width: 280px;
+    height: 400px;
     display: block;
-    margin-left: 190px;
-    border-radius: 20px;
-
+    position: absolute;
+    top: 400px;
+    left: 380px; /* Alinhado à direita */
+    transform: translate(-50%, 0);
 }
 
 .gif2 {
-    background-image: url(avatar02.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 270px;
-    height: 472px;
-    background-color: rgba(240, 248, 255, 0);
-    display: block;
-    border-radius: 20px;
+    width: 250px;
+    height: 400px;
     position: absolute;
-    bottom: 165px;
-    right: 270px; /* Alinhado à direita */
+    bottom: 250px;
+    right: 240px; /* Alinhado à direita */
     transform: translate(0, -50%);
 
 }
 
-.img{
+.img-logo{
     background-color: #007bffb5;
     border-radius: 20px;
-    position: relative;
-    margin-left: 100px;
+    position: absolute;
+    left: 100px;
+
+    margin-top: 120px;
     animation: flutuar 2s ease-in-out infinite alternate;
     width: 490px; /* Define a largura da imagem */ 
-    height: 45; /* Define a altura da imagem */
 }
 
 @keyframes flutuar{
@@ -180,3 +180,86 @@ a {
 a:hover { 
     text-decoration: underline; 
 }
+
+@media (max-width: 1740px){
+
+    .img-logo {
+        left: 3%;
+        width: 20%; /* Define a largura da imagem */ 
+    }
+
+
+    .gif1 {
+        width: 200px;
+        height: 360px;
+        top: 400px;
+        left: 180px; /* Alinhado à direita */
+    }
+    
+    .gif2 {
+        width: 200px;
+        height: 360px;
+        bottom: 250px;
+        right: 80px; /* Alinhado à direita */
+    }
+
+    .img-tags {
+        display: block;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 200px;
+        right: 50px; /* Alinhado à direita */
+        transform: translate(0, -50%);
+        
+    }
+
+    .html, .css, .js {
+        width: 80px;
+    }
+}
+
+@media (max-width: 1220px){
+    .img-tags{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1080px){
+    .img-logo {
+        display: none;
+    }
+
+    .gif1, .gif2 {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 500px){
+
+     h1 {
+        font-size: 40px;
+     }
+
+     .container {
+        width: 80%;
+        max-width: 500px;
+        margin-top: 30px;
+     }
+
+
+     li { 
+        margin: 5px 0; 
+        padding: 8px;
+        text-align: left;
+     }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+
