@@ -1,0 +1,43 @@
+body {
+    background-image: url(espaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.astronauta {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: flutuar 5.6s ease-in-out infinite alternate;
+}
+
+ion-icon {
+    font-size: 100px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(137, 43, 226, 0.562);
+    border-radius: 100%;
+}
+
+ion-icon:hover {
+    color: green;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 100%;
+}
+
+
+@keyframes flutuar {
+    0% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-100px);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+}
