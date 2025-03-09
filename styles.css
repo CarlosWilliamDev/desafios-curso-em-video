@@ -69,7 +69,8 @@ li {
     font-family:"Kanit", serif;
     font-weight: 150;
     font-style: normal;
-    width: 70%; /* Faz com que os itens da lista ocupem 80% da largura do container */
+    width: 60%; /* Faz com que os itens da lista ocupem 80% da largura do container */
+    cursor: pointer;
 }
 
 li:hover {

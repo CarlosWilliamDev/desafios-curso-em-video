@@ -2,6 +2,7 @@ body {
     background-image: url(espaco.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 98vh;
 }
 
 .astronauta {
@@ -41,3 +42,4 @@ ion-icon:hover {
         transform: translate(-50%, -50%) translateY(0);
     }
 }
+
